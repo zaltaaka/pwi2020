@@ -1,0 +1,23 @@
+<h1>FORMULARIO DE ALTA</h1>
+
+<!--condicional muestra css bootstrap si el casillero esta vacio. -->
+{{#if error}}
+    <div class="alert alert-danger" role="alert">
+        {{{error}}}
+    </div>
+{{/if}}
+
+
+
+<form action="/procesar_alta" method="post">
+    <label for="nombre"> Nombre: </label>
+    <input type="text" name="nombre" id="nombre" value="{{nombre}}">
+    <br>
+    
+    <input type="checkbox" name="realizada" id="realizada"> Realizada?</lavel>
+    <br>
+    <button type="submit">Guardar</button>
+
+
+</form>
+

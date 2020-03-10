@@ -1,0 +1,21 @@
+<h1>Formulario de alta</h1>
+
+{{error}}
+<form method="post">
+    <div class="form-control">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" value="{{datos.nombre}}">
+    </div>
+    <br>
+    <div class="form-control">
+    <label for="apellido">Apellido:</label>
+    <input type="text" name="apellido" value="{{datos.apellido}}">
+    </div>
+    
+    <br>
+
+    <button type="submit" class="btn btn-secondary">GUARDAR</button>
+
+
+
+</form>

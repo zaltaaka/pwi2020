@@ -1,0 +1,28 @@
+<h2>Listado de USUARIOS</h2>
+
+<!--<a href="/login" class="btn btn-primary">Agregar artista</a>-->
+
+<table class="table">
+    <tr>
+        <th>Usuarios</th>
+        <th>Contraseñas</th>
+        <th>Emails</th>
+    </tr>
+    
+    
+    {{#each listadousuarios}}<!--abre el listado y repite todos los que haya -->
+    <tr>
+        <td>{{this.user}}</td>
+        <td>{{this.pass}}</td>
+        <td>{{this.email}}</td>
+        <td>
+            <a href="/borrar/{{this._id}}">Borrar -</a>
+            <a href="/editar/{{this._id}}">Editar</a>
+        </td>
+
+    </tr>
+    {{/each}} <!--cierra el listado -->
+
+</table>
+
+

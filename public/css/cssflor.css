@@ -1,0 +1,103 @@
+body { 
+    background: pink;
+    margin: 50px;
+    padding: 50px;
+
+}
+.container.florprueba { 
+    margin: 200px;
+}
+
+
+h1 { /* viene con un margin predeterminado */
+    color: red;
+    font-size: 3em;
+    margin: 0px;
+}
+h1, p .resaltado {
+    font-weight: bold; 
+    background: lightcoral;
+}
+h1.fontgoogle {
+    font-family: Zhi Mang Xing;
+ }
+a {
+    color: darkblue;
+    font-size: 24px;
+}
+.otroenlace {
+    color: orangered;
+}
+
+
+img.foto {
+    padding: 10px;
+    padding-bottom: 50px; 
+    background: white;
+    border: 1px solid gray;
+}
+
+
+.banner{
+    /* background: lightskyblue; */
+    /* background: url("/img/playa.jpg"); elegir una foto ya de la medida de mi caja */
+    background: url("/img/malla.jpg");/*con link externo url("https://loremflickr.com/1920/800");*/
+    height: 200px;   
+    text-align: center;
+}
+
+.banner h2{
+    font-family: Zhi Mang Xing;
+    font-size: 5em;
+    color: wheat;
+    /* padding: 50px; */
+    text-decoration: underline;
+}
+
+
+.columnaa {
+    background: darkcyan;
+}
+.columnab {
+    background: lightseagreen;
+}
+.columnab,p {
+    color: white;
+}
+
+.verde1{
+    background: greenyellow; 
+    height: 70px;
+} 
+.blue{
+    background: blue;
+    height: 50px;
+    border: 1px solid white;
+}
+.magenta{
+    background: magenta; 
+    height: 50px;
+}
+.orange{
+    background: orange; 
+    height: 200px;
+    border: 1px solid white;
+} 
+.red{
+    background: red;
+}
+.verde2{
+    background: greenyellow; 
+    height: 40px;
+} 
+
+.iconoverde{
+    color: greenyellow;
+}
+.iconorojo{
+    color: red;
+}
+
+
+/*  { }*/
+/*  */

@@ -1,0 +1,26 @@
+<h2>Listado de artistas</h2>
+
+<a href="/alta" class="btn btn-primary">Agregar artista</a>
+
+<table class="table">
+    <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+    </tr>
+    
+    
+    {{#each listado}}<!--abre el listado y repite todos los que haya -->
+    <tr>
+        <td>{{this.nombre}}</td>
+        <td>{{this.apellido}}</td>
+        <td>
+            <a href="/borrar/{{this._id}}">Borrar -</a>
+            <a href="/editar/{{this._id}}">Editar</a>
+        </td>
+
+    </tr>
+    {{/each}} <!--cierra el listado -->
+
+</table>
+
+

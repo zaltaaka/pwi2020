@@ -1,0 +1,30 @@
+
+<h1>Cuadro de prueba.</h1>
+
+
+
+<table class="table">
+  
+    <tr>
+      <th>TAREA</th>
+      
+      <th>OK</th>
+    </tr>
+
+    {{#each listado}}
+       <tr>
+            <td>
+                    {{this.title}}
+            </td>
+            <td>
+                {{#if this.completed}}
+                    <i class="fas fa-check-circle iconoverde"></i>
+                {{else}}
+                    <i class="fas fa-times-circle iconorojo"></i>
+                {{/if}}
+            </td>
+       </tr>
+    
+    {{/each}}
+  
+</table>
